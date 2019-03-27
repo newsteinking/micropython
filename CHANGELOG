@@ -1,0 +1,38 @@
+0.6
+---
+
+* Remove TouchDevelop specific elements.
+* Make a stand-alone version of the editor.
+* Simplification of the UI.
+* Add a "share" button to create a tiny URL to point at the current script.
+* Use query strings to override the script name, comment and code.
+* Update to the latest version of MicroPython:
+    - Various minor refactors.
+    - Audio
+    - Speech
+    - Radio
+    - input() builtin
+* Documentation work / tidy up.
+
+0.5
+---
+
+* Update to the latest version of MicroPython:
+    - Various minor code refactors.
+    - More efficient ticker (reduces overhead of display update by 90%).
+    - Add builtin set and frozenset types (from core Python).
+    - Don't show SystemExit or KeyboardInterrupt exceptions on the display.
+* Update bug in editor that caused the status icon not to update to cloud.
+* Added test script here: https://stage.microbit.co.uk/hoqumw
+* Revised button-press code to be simpler.
+* Minor documentation updates.
+
+0.4
+---
+
+Initial tested public release.
+
+0.1-0.3
+-------
+
+Private test versions.

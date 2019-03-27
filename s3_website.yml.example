@@ -1,0 +1,17 @@
+s3_id: 
+s3_secret: 
+s3_bucket: 
+site: .
+exclude_from_upload: .git
+
+max_age:
+   "*": 12000
+
+# See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
+s3_endpoint: eu-west-1
+
+cloudfront_wildcard_invalidation: true
+
+redirects:
+        /: /editor.html
+        index.html: /editor.html
